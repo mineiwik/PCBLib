@@ -1,41 +1,183 @@
-(footprint "Cap_Murata_GRM_0603" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "GRM18_0.10 L=1.6mm W=0.8mm T=0.8mm")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference "C**" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
-    (tstamp 2266c14b-b57e-4aee-aa05-9bb3aeb96592)
-  )
-  (fp_text value "Cap_Murata_GRM_0603" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
-    (tstamp ba0ad3ff-2193-48c2-b60a-2be4af833916)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
-    (tstamp e940c610-b735-4fbc-84d5-6c32e8527ba3)
-  )
-  (fp_line (start -1.225 -0.62) (end 1.225 -0.62)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a2ef0418-0a72-4a48-9d4c-dcd42b9c633f))
-  (fp_line (start -1.225 0.62) (end -1.225 -0.62)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 87f2c5ee-1e6a-48d8-8172-c5301eb7e201))
-  (fp_line (start 1.225 -0.62) (end 1.225 0.62)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 12c68595-085a-41f8-a336-c98f08549e65))
-  (fp_line (start 1.225 0.62) (end -1.225 0.62)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 3167e41e-bfc0-46a5-96d5-cb992f3540c9))
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b2556bf1-0183-488c-a08e-d35b99ebb3ca))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ead8ec79-b357-4024-a7c7-6bf440feedc6))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 70483421-5893-4bec-9bb2-07b12afa7efb))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 90d4c609-fae5-4fa9-bcc0-56173d19e5c5))
-  (pad "1" smd rect (at -0.7 0) (size 0.75 0.94) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp da08c17f-d5ab-4f50-b351-4ee43952a771))
-  (pad "2" smd rect (at 0.7 0) (size 0.75 0.94) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48563cd5-46a1-4c4e-b510-0fad3b61a96f))
-  (model "${KIPRJMOD}/PCBLib/3d/Cap_Murata_GRM_0603.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Cap_Murata_GRM_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "GRM18_0.10 L=1.6mm W=0.8mm T=0.8mm")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2266c14b-b57e-4aee-aa05-9bb3aeb96592")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "Cap_Murata_GRM_0603"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ba0ad3ff-2193-48c2-b60a-2be4af833916")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "251c5543-3ba3-472b-a649-35276ecbbeea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf0574c3-081d-4809-b2d5-6bd9fad4f24b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dced065-2761-4e17-ad88-4935f60997cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.225 -0.62)
+		(end 1.225 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2ef0418-0a72-4a48-9d4c-dcd42b9c633f")
+	)
+	(fp_line
+		(start -1.225 0.62)
+		(end -1.225 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87f2c5ee-1e6a-48d8-8172-c5301eb7e201")
+	)
+	(fp_line
+		(start 1.225 -0.62)
+		(end 1.225 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12c68595-085a-41f8-a336-c98f08549e65")
+	)
+	(fp_line
+		(start 1.225 0.62)
+		(end -1.225 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3167e41e-bfc0-46a5-96d5-cb992f3540c9")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2556bf1-0183-488c-a08e-d35b99ebb3ca")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ead8ec79-b357-4024-a7c7-6bf440feedc6")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70483421-5893-4bec-9bb2-07b12afa7efb")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90d4c609-fae5-4fa9-bcc0-56173d19e5c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e940c610-b735-4fbc-84d5-6c32e8527ba3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 0.75 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da08c17f-d5ab-4f50-b351-4ee43952a771")
+	)
+	(pad "2" smd rect
+		(at 0.7 0)
+		(size 0.75 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "48563cd5-46a1-4c4e-b510-0fad3b61a96f")
+	)
+	(model "${KIPRJMOD}/PCBLib/3d/Cap_Murata_GRM_0603.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
