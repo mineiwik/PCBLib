@@ -256,7 +256,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "05756773-e012-48f8-800e-1afb99fd1694")
 	)
-	(model "PVG3A103C01R00.stp"
+	(model "${KIPRJMOD}/PCBLib/3d/PVG3A103C01R00.stp"
 		(offset
 			(xyz 0 0 0)
 		)

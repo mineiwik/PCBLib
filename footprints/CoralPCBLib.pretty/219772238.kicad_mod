@@ -262,4 +262,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0e6d17bc-b7a6-46ec-8798-b8ed8837b7e6")
 	)
+	(model "${KIPRJMOD}/PCBLib/3d/c-1977223-4-b2-3d.stp"
+		(offset
+			(xyz 0 0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

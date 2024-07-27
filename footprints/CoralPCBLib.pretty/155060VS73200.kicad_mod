@@ -216,15 +216,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "426846d1-4820-4e6f-9a7e-94f86a8748c4")
 	)
-	(model "155060VS73200.stp"
+	(model "${KIPRJMOD}/PCBLib/3d/155060VS73200.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.15 0.3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 180)
 		)
 	)
 )

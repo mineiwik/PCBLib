@@ -270,9 +270,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "19ea20a1-021e-422b-b6f3-d55f4a60e662")
 	)
-	(model "MXC6655XA.stp"
+	(model "${KIPRJMOD}/PCBLib/3d/MXC6655XA.stp"
 		(offset
-			(xyz 0 0 0.9800000044)
+			(xyz 0 0 0.98)
 		)
 		(scale
 			(xyz 1 1 1)
