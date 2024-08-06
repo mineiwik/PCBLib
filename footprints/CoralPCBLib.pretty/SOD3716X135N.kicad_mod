@@ -17,7 +17,8 @@
 	)
 	(property "Value" "${REFERENCE}"
 		(at 0 0 0)
-		(layer "F.Fab")
+		(layer "F.SilkS")
+		(hide yes)
 		(uuid "adeb0533-0fe5-466b-85eb-12d472c32e1b")
 		(effects
 			(font
@@ -65,7 +66,7 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -0.901444 -0.8) (xy -0.3 -0.8) (xy -0.3 0.801284) (xy -0.901444 0.801284)
+			(xy 0.3556 -0.8) (xy 0.957044 -0.8) (xy 0.957044 0.801284) (xy 0.3556 0.801284)
 		)
 		(stroke
 			(width 0.01)
@@ -165,6 +166,29 @@
 		)
 		(layer "F.Fab")
 		(uuid "850aa932-cd11-4249-bce2-b36416ff4d90")
+	)
+	(fp_poly
+		(pts
+			(xy 0.922556 -0.788484) (xy 1.1684 -0.788484) (xy 1.1684 0.8128) (xy 0.922556 0.8128)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "f94bc46e-f49b-4b09-8b96-a6b2b9bd9770")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e3eeb63c-d4fd-46ef-8531-4a1411490f8c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
 	)
 	(pad "1" smd rect
 		(at 1.6383 0)

@@ -156,6 +156,17 @@
 		(layer "F.Fab")
 		(uuid "e49355e2-ae93-47a2-88de-2af09eaaf863")
 	)
+	(fp_arc
+		(start -1.22 0.9144)
+		(mid -1.32 0.9144)
+		(end -1.22 0.9144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92f945f3-8098-407d-b4c4-8572986afbb0")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")

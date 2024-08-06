@@ -16,9 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "${REFERENCE}"
+	(property "Value" "CC1101RGP"
 		(at 0 0 0)
-		(layer "F.Fab")
+		(layer "F.SilkS")
+		(hide yes)
 		(uuid "0b9a119e-8381-45e7-8889-a94ffc8f4707")
 		(effects
 			(font
@@ -325,6 +326,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "757623d0-4d50-48ab-aa97-57741c4c2fa7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c3b603f3-a23d-4ce0-be0a-9685522cfd0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
 	)
 	(pad "1" smd rect
 		(at -1.89625 -1.000001 90)

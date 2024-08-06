@@ -12,7 +12,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.2)
+				(thickness 0.153)
 			)
 		)
 	)
@@ -152,8 +152,7 @@
 		(effects
 			(font
 				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(thickness 0.075)
 			)
 		)
 	)
