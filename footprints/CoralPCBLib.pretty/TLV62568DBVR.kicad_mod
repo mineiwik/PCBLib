@@ -1,7 +1,7 @@
 (footprint "TLV62568DBVR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DBV (R-PDSO-G5)")
 	(tags "Integrated Circuit")
@@ -30,18 +30,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d38abe4f-37b2-404e-bfe9-cb67849a5601")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -67,16 +55,16 @@
 		)
 	)
 	(attr smd)
-	(fp_arc
-		(start -1.1692 -1.524)
-		(mid -1.2692 -1.524)
-		(end -1.1692 -1.524)
+	(fp_circle
+		(center -1.35 -1.6)
+		(end -1.25 -1.6)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "18c25a6e-689b-4c6c-97e0-645e9da608ce")
+		(uuid "52d0299b-f4ec-45e8-9b16-f9687f59f577")
 	)
 	(fp_line
 		(start -2.1 -1.775)
@@ -183,33 +171,34 @@
 	(pad "1" smd rect
 		(at -1.25 -0.95 90)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5478f475-ed15-49e6-bb38-3c448249ff57")
 	)
 	(pad "2" smd rect
 		(at -1.25 0 90)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2ee5957a-d2bd-44a2-9f27-a0a8289608ad")
 	)
 	(pad "3" smd rect
 		(at -1.25 0.95 90)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "07fd7e94-5759-41ad-a7c1-3a98012022ad")
 	)
 	(pad "4" smd rect
 		(at 1.25 0.95 90)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9078cf34-e6bd-4f19-b183-ca80a53e9167")
 	)
 	(pad "5" smd rect
 		(at 1.25 -0.95 90)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "20a91272-e6cb-41e7-8dbd-a0b0b27f5dba")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/PCBLib/3d/TLV62568DBVR.stp"
 		(offset
 			(xyz 0 0 0)
